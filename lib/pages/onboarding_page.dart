@@ -18,7 +18,7 @@ class OnboardingPage extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               //colors: [Color(0xFF7AACFE), Color(0xFF004ECE)]
-              colors: [Color(0xFF7AACFE), Color(0xFF0041AD)]
+              colors: [Color(0xFFFFEACA), Color(0xFFFFEACA)]
             )
           ),
           contentMargin: EdgeInsets.symmetric(horizontal: 50.0)
@@ -37,7 +37,7 @@ class OnboardingPage extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               //colors: [Colors.lightBlueAccent, Colors.blue]
-              colors: [Color(0xFF7AACFE), Color(0xFF0041AD)]
+              colors: [Color(0xFFFFEACA), Color(0xFFFFEACA)]
             )
           ),
           contentMargin: EdgeInsets.symmetric(horizontal: 50.0)
@@ -56,7 +56,7 @@ class OnboardingPage extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               //colors: [Colors.lightBlueAccent, Colors.blue]
-              colors: [Color(0xFF7AACFE), Color(0xFF0041AD)]
+              colors: [Color(0xFFFFEACA), Color(0xFFFFEACA)]
             )
           ),
           contentMargin: EdgeInsets.symmetric(horizontal: 50.0)
@@ -75,7 +75,7 @@ class OnboardingPage extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               //colors: [Colors.lightBlueAccent, Colors.blue]
-              colors: [Color(0xFF7AACFE), Color(0xFF0041AD)]
+              colors: [Color(0xFFFFEACA), Color(0xFFFFEACA)]
             )
           ),
           contentMargin: EdgeInsets.symmetric(horizontal: 50.0)
@@ -88,7 +88,7 @@ class OnboardingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: IntroductionScreen(
-        globalBackgroundColor: Colors.transparent,
+        globalBackgroundColor: Color(0xFFFFEACA),
         dotsDecorator: DotsDecorator(
           color: Colors.black26,
           activeColor: Colors.white,
