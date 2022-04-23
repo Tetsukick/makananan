@@ -46,7 +46,7 @@ class _SignInPageState extends State<SignInPage> {
           //mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Text("Welcome to Foodspace", style: TextStyle(color: Colors.white, fontSize: 40.0, fontWeight: FontWeight.bold)),
+            Text("Welcome to makananan", style: TextStyle(color: Colors.white, fontSize: 40.0, fontWeight: FontWeight.bold)),
 
             SizedBox(height: 30.0),
 

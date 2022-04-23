@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
               elevation: 0.0,
               expandedHeight: 100.0,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Foodspace', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+                title: Text('makananan', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                 centerTitle: true,
               ),
             ),
