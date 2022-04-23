@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/gestures.dart';
-import 'package:foodspace/helper/helper_functions.dart';
-import 'package:foodspace/pages/selectcity_page.dart';
-import 'package:foodspace/services/auth_service.dart';
-import 'package:foodspace/services/database_service.dart';
-import 'package:foodspace/shared/constants.dart';
-import 'package:foodspace/shared/loading.dart';
+import 'package:makananan/helper/helper_functions.dart';
+import 'package:makananan/pages/selectcity_page.dart';
+import 'package:makananan/services/auth_service.dart';
+import 'package:makananan/services/database_service.dart';
+import 'package:makananan/shared/constants.dart';
+import 'package:makananan/shared/loading.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatefulWidget {

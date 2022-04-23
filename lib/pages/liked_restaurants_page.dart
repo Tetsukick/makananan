@@ -1,12 +1,12 @@
 import 'dart:convert';
-import 'package:foodspace/models/api_models.dart';
-import 'package:foodspace/shared/constants.dart';
+import 'package:makananan/models/api_models.dart';
+import 'package:makananan/shared/constants.dart';
 import 'package:http/http.dart' as http;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:foodspace/widgets/restaurant_card_alt.dart';
+import 'package:makananan/widgets/restaurant_card_alt.dart';
 
 class LikedRestaurantsPage extends StatefulWidget {
 

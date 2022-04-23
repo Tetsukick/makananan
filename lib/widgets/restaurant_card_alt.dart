@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodspace/pages/restaurant_details_page.dart';
+import 'package:makananan/pages/restaurant_details_page.dart';
 
 class RestaurantCardAlt extends StatelessWidget {
 

@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:foodspace/shared/constants.dart';
-import 'package:foodspace/widgets/carousel_template.dart';
+import 'package:makananan/shared/constants.dart';
+import 'package:makananan/widgets/carousel_template.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 

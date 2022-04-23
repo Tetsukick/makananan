@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'package:foodspace/pages/view_all_restaurants_page.dart';
-import 'package:foodspace/shared/constants.dart';
-import 'package:foodspace/widgets/restaurant_card.dart';
+import 'package:makananan/pages/view_all_restaurants_page.dart';
+import 'package:makananan/shared/constants.dart';
+import 'package:makananan/widgets/restaurant_card.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:foodspace/models/api_models.dart';
+import 'package:makananan/models/api_models.dart';
 import 'package:shimmer/shimmer.dart';
 
 class CarouselTemplate extends StatelessWidget {
