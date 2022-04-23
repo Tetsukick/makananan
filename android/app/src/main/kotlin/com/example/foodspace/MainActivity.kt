@@ -1,4 +1,4 @@
-package com.example.foodspace
+package com.tetsukick.makananan
 
 import io.flutter.embedding.android.FlutterActivity;
 

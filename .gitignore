@@ -17,3 +17,6 @@
 .idea
 build
 dgph
+android/.gradle
+google-services.json
+GoogleService-Info.plist
