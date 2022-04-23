@@ -1,6 +1,6 @@
-import 'package:foodspace/pages/register_page.dart';
+import 'package:makananan/pages/register_page.dart';
 import 'package:flutter/material.dart';
-import 'package:foodspace/pages/signin_page.dart';
+import 'package:makananan/pages/signin_page.dart';
 
 class AuthenticatePage extends StatefulWidget {
   @override

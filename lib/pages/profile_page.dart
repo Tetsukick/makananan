@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:foodspace/helper/helper_functions.dart';
-import 'package:foodspace/pages/authenticate_page.dart';
-import 'package:foodspace/services/auth_service.dart';
+import 'package:makananan/helper/helper_functions.dart';
+import 'package:makananan/pages/authenticate_page.dart';
+import 'package:makananan/services/auth_service.dart';
 
 class ProfilePage extends StatefulWidget {
 

@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:foodspace/pages/geolocation_page.dart';
-import 'package:foodspace/services/database_service.dart';
-import 'package:foodspace/shared/constants.dart';
+import 'package:makananan/pages/geolocation_page.dart';
+import 'package:makananan/services/database_service.dart';
+import 'package:makananan/shared/constants.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:foodspace/models/api_models.dart';
+import 'package:makananan/models/api_models.dart';
 import 'package:shimmer/shimmer.dart';
 
 class RestaurantDetailsPage extends StatefulWidget {

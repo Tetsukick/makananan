@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart' as FirebaseAuth;
-import 'package:foodspace/helper/helper_functions.dart';
-import 'package:foodspace/models/user.dart';
-import 'package:foodspace/services/database_service.dart';
+import 'package:makananan/helper/helper_functions.dart';
+import 'package:makananan/models/user.dart';
+import 'package:makananan/services/database_service.dart';
 
 class AuthService {
   final FirebaseAuth.FirebaseAuth _auth = FirebaseAuth.FirebaseAuth.instance;

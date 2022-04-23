@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'package:foodspace/shared/constants.dart';
+import 'package:makananan/shared/constants.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:foodspace/models/api_models.dart';
-import 'package:foodspace/widgets/restaurant_card_alt.dart';
+import 'package:makananan/models/api_models.dart';
+import 'package:makananan/widgets/restaurant_card_alt.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ViewAllRestaurantsPage extends StatelessWidget {

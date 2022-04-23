@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:foodspace/pages/home_page.dart';
-import 'package:foodspace/pages/liked_restaurants_page.dart';
-import 'package:foodspace/pages/profile_page.dart';
-import 'package:foodspace/shared/loading.dart';
+import 'package:makananan/pages/home_page.dart';
+import 'package:makananan/pages/liked_restaurants_page.dart';
+import 'package:makananan/pages/profile_page.dart';
+import 'package:makananan/shared/loading.dart';
 
 class TabMonitorPage extends StatefulWidget {
 

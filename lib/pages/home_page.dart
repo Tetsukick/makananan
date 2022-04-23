@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:foodspace/shared/constants.dart';
-import 'package:foodspace/widgets/carousel_template.dart';
+import 'package:makananan/shared/constants.dart';
+import 'package:makananan/widgets/carousel_template.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
               elevation: 0.0,
               expandedHeight: 100.0,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Foodspace', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+                title: Text('makananan', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                 centerTitle: true,
               ),
             ),
