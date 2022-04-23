@@ -12,16 +12,16 @@ class MyPainter extends CustomPainter {
 
     Path mainBackground = Path();
     mainBackground.addRect(Rect.fromLTRB(0, 0, width, height));
-    bgPaint.color = Colors.black87;
+    bgPaint.color = Color(0xFFFFEACA);
     canvas.drawPath(mainBackground, bgPaint);
 
-    Paint circlePaint1 = Paint()..color = Color(0xFF307EFF);
+    Paint circlePaint1 = Paint()..color = Color(0xFFFFA52E);
     canvas.drawCircle(Offset(40.0, 40.0), 150.0, circlePaint1);
 
-    Paint circlePaint2 = Paint()..color = Color(0xFF307EFF);
+    Paint circlePaint2 = Paint()..color = Color(0xFFFFA52E);
     canvas.drawCircle(Offset(50.0, height-40.0), 300.0, circlePaint2);
 
-    Paint circlePaint3 = Paint()..color = Color(0xFF307EFF);
+    Paint circlePaint3 = Paint()..color = Color(0xFFFFA52E);
     canvas.drawCircle(Offset(width - 20.0, height/2 - 50.0), 80.0, circlePaint3);
   }
 
